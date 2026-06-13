@@ -1,22 +1,22 @@
 {
-    "id": "egg-selector",
-    "name": "Egg Selector",
-    "author": "JoanFo",
-    "version": "1.0.1",
-    "description": "Lets server users change their egg from the startup page.",
-    "category": "plugin",
-    "url": "",
-    "update_url": "",
-    "namespace": "JoanFo\\EggSelector",
-    "class": "EggSelectorPlugin",
-    "panels": [
-        "admin",
-        "server"
-    ],
-    "panel_version": null,
-    "composer_packages": [],
-    "meta": {
-        "status": "enabled",
-        "status_message": null
-    }
+  "id": "egg-selector",
+  "name": "Egg Selector",
+  "author": "JoanFo",
+  "version": "1.0.2",
+  "description": "Lets server users change their egg from the startup page.",
+  "category": "plugin",
+  "url": "",
+  "update_url": "",
+  "namespace": "JoanFo\\EggSelector",
+  "class": "EggSelectorPlugin",
+  "panels": [
+    "admin",
+    "server"
+  ],
+  "panel_version": null,
+  "composer_packages": [],
+  "meta": {
+    "status": "enabled",
+    "status_message": null
+  }
 }
