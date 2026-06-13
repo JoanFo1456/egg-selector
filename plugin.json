@@ -1,0 +1,18 @@
+{
+    "id": "egg-selector",
+    "name": "Egg Selector",
+    "author": "JoanFo",
+    "version": "1.0.0",
+    "description": "Lets server users change their egg from the startup page. Admin configures which eggs are available.",
+    "category": "plugin",
+    "url": "",
+    "update_url": "",
+    "namespace": "JoanFo\\EggSelector",
+    "class": "EggSelectorPlugin",
+    "panels": [
+        "admin",
+        "server"
+    ],
+    "panel_version": null,
+    "composer_packages": []
+}
