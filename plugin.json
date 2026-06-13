@@ -3,7 +3,7 @@
     "name": "Egg Selector",
     "author": "JoanFo",
     "version": "1.0.0",
-    "description": "Lets server users change their egg from the startup page. Admin configures which eggs are available.",
+    "description": "Lets server users change their egg from the startup page.",
     "category": "plugin",
     "url": "",
     "update_url": "",
