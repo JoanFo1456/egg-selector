@@ -39,8 +39,8 @@ class EggSelectorPlugin implements HasPluginSettings, Plugin
             HeaderActionPosition::After,
             Action::make('egg_selector')
                 ->label('Change Egg')
-                ->icon(TablerIcon::Egg->value)
-                ->visible(fn () => user()?->can(SubuserPermission::StartupUpdate, Filament::getTenant()))
+                ->icon(TablerIcon::Egg)
+                ->authorize(fn () => user()?->can(SubuserPermission::StartupUpdate, Filament::getTenant()))
                 ->schema(fn () => [
                     Select::make('egg_id')
                         ->label('New Egg')
